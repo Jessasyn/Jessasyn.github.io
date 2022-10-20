@@ -1,0 +1,132 @@
+﻿@page "/Wie"
+
+@inject NavigationManager Manager;
+<!--Set title to muziek-->
+
+@code{
+    void ToIndex() => Manager.NavigateTo("");
+
+    void ToWie() => Manager.NavigateTo("Wie");
+
+    void ToContact() => Manager.NavigateTo("Contact");
+
+    void ToRepertoire() => Manager.NavigateTo("Repertoire");
+
+    void ToMuziek() => Manager.NavigateTo("Muziek");
+
+    void ToVideos() => Manager.NavigateTo("Videos");
+}
+<div class="banner" style="user-select:none">
+    <div class="banner-content">
+        <a @onclick="ToIndex">Home</a>
+        <a @onclick="ToWie">Band</a>
+        <a @onclick="ToContact">Contact</a>
+        <a @onclick="ToRepertoire">Repertoire</a>
+        <a @onclick="ToMuziek">Muziek</a>
+        <a @onclick="ToVideos">Videos</a>
+    </div>
+</div>
+
+
+<div class="main-content">
+    <div class="textstrip">
+        <div class="wietitel">THE DIE IS CAST</div>
+        <div style="padding: 0px 20px 10px 20px">
+            <br />
+            <b><i>Het bloed kruipt waar het niet gaan kan.</i></b>
+            <br />
+            <br />
+           
+        </div>
+        <div class="row">
+            <div class="column">
+                <img class="txtimg" src="/Images/band.png" />
+                <br />
+                <b><i>We are the Band</i></b>
+                <br />
+                <br />
+                Eind zestiger jaren werd door een aantal enthousiaste cadetten van de KMA in Breda een ‘beatband’ (jargon van die tijd) geformeerd. 
+                Het klimaat voor een dergelijk initiatief was destijds op dit opleidingsinstituut zeker niet optimaal en na de nodige tegenslagen en wisselingen in de bezetting stond de toekomst van de band serieus ter discussie. 
+                <br />
+                <br />
+                Het duurde even, maar uiteindelijk werd de knoop doorgehakt en werd besloten om door te zetten. 
+                De naam van de band weerspiegelt dit moeizame besluitvormingsproces en de gunstige uitkomst daarvan: The Die is Cast (‘de teerling is geworpen’, 
+                vrij naar Julius Caesar, nadat hij had besloten de Rubicon over te steken). 
+                Henk Eijsenga, Tjipke Feenstra, Harry van der Horst, Gido Onderstal, Rienko Prins, André Rohde en Frits Verschuur vormden na enige persoonswisselingen de definitieve bezetting van de band. 
+                Vervolgens werden de benodigde instrumenten en apparatuur bij elkaar gesprokkeld. 
+                Voor een deel eigen materiaal en voor een deel goede gaven van de Welzijnszorg. 
+                Ook kwam er steun in de vorm van een financiële bijdrage van de culturele commissie van het cadettencorps, die de culturele potentie van de band op de juiste wijze wist in te schatten.
+                <br /><br />
+                Het succes liet niet lang op zich wachten. De band maakte naam met diverse wapenfeiten. 
+                Hij trad op tijdens de Dies Natalis van de KMA, een kerstviering in de Grote Kerk van Breda, 
+                de eerste editie van de Bredase Torenfeesten, een feestavond van het Stedelijk Gymnasium in Breda, 
+                een Sinterklaasfeest van de Onderofficiersmess van het Korps Commandotroepen en verzorgde de muzikale omlijsting bij sportfestiviteiten en bij de opening van een bar in Breda, 
+                de ‘Jost Inn’. De mengeling van rock & roll, rhythm & blues en popmuziek sloeg bij het publiek aan, 
+                niet in de laatste plaats dankzij het aanstekelijk enthousiaste van de bandleden.
+                <br /><br />
+                <img class="txtimg" src="/Images/grotezaal.png" />
+                <br />
+                <b><i>In de grote zaal KMA 1970</i></b>
+                <br /><br />
+            </div>
+            <div class="column">
+                Begin zeventiger jaren, toen alle bandleden tot officier waren benoemd en verspreid over het land woonden, 
+                bleken repetities en optredens niet meer haalbaar en de band hield feitelijk op te bestaan. 
+                Een tweetal bandleden verwisselde de wapenrok voor permanente burgerkleding. 
+                In 1988 kwam de band weer bij elkaar voor een gelegenheidsoptreden. 
+                Dat optreden oogstte zoveel succes, dat opnieuw de vraag werd gesteld: doorgaan of niet? 
+                Het werd ‘doorgaan’! 
+                Met hernieuwde energie, moderner materiaal en een rijpere kijk op muziek ging The <b><i>Die is Cast</i></b> (DIC) weer muziek maken. 
+                Er volgden optredens bij de hoofdkwartieren van land- en luchtmacht, in diverse officiersmesses, 
+                op het 50-jarig bestaan van het 322 Squadron van de Vliegbasis Leeuwarden, op bruiloften en partijen en niet te vergeten tijdens de ‘eigen’ DIC-feesten. 
+                De door de band gespeelde muziek bleek nog steeds goed aan te slaan bij zowel het jongere als het oude(re) publiek.
+                <br /><br />
+                <img class="txtimg" src="/Images/actie.png" />
+                <br /><br />
+                <b><i>DIC in actie tijdens een optreden</i></b>
+                <br /><br />
+                In 1998 kwamen de bandactiviteiten weer tot stilstand, 
+                ditmaal door plaatsing in het buitenland van een aantal bandleden. 
+                In de loop van 2004 was iedereen weer in Nederland terug, 
+                waren alle bandleden postactief geworden en konden de bandactiviteiten voor de derde keer worden opgepakt. 
+                Vanaf dat moment oefent de band maandelijks een dag met elkaar op een centrale locatie in het land. 
+                The Die is Cast treedt weer geregeld op, 
+                met als onmiskenbaar hoogtepunt het optreden bij de viering van het 50-jarig bestaan van de band in 2017, 
+                in dezelfde samenstelling als eind zestiger jaren en dat is voor welk muziekgezelschap dan ook tamelijk uniek.
+                <br /><br />
+                Nu wil een hardnekkig misverstand dat dit optreden het laatste was van deze band, 
+                maar <b>niets is minder waar!</b> 
+                Hoewel de gemiddelde leeftijd van de bandleden (tegen de) 75 jaar is, 
+                wordt er nog steeds even ambitieus, maar met meer muzikale vaardigheden dan voorheen,
+                Old Time Rock And Roll gespeeld. 
+                Dat alles onder het motto: ‘Rock ‘Til You Drop’ (conform een nummer uit het repertoire). 
+                Wilt u zich daarvan overtuigen, neem dan contact op met Harry van der Horst (<a href="mailto:hmvdhorst@kpnmail.nl">hmvdhorst@kpnmail.nl</a>, of bel 06-51880902). 
+                Voor een alleszins redelijke onkostenvergoeding zal deze band uw feest graag van muziek voorzien. 
+                <u>Organiseer uw eigen festival!</u>
+                <br /> <br/>
+                <div style="border: 3px solid #240293; padding: 18px 32px 18px 32px; word-spacing: 4px; line-height: 22px;">
+                    <b>Bandleden</b>
+                    <br />
+                    <b>Henk Eijsenga</b>: drummer.
+                    <br />
+                    <b>Tjipke Feenstra</b>: ritme-gitaar.
+                    <br />
+                    <b>Harry van der Horst</b>: basgitaar, blues harp.
+                    <br />
+                    <b>Gido Onderstal</b>: zanger.
+                    <br />
+                    <b>Rienko Prins</b>: toetsenist.
+                    <b>André Rohde</b>: geluidstechnicus en manager.
+                    <br />
+                    <b>Frits Verschuur</b>: sologitaar.
+                </div>
+            </div>
+        </div>
+        <div style="padding: 10px 20px 10px 20px">
+            <br /><br />
+            <img class="txtimg" src="/Images/leden.png" />
+            <br /><br />
+            <b><i>DIC 20 Staand vlnr. Gido, Henk, Harry en Rienko; zittend Frits, Tjip en André</i></b>
+        </div>
+    </div>
+</div>
